@@ -1,0 +1,65 @@
+
+/* Universal selectors */
+*{
+  font-family: monospace;
+}
+
+
+/* element Selectors */
+h1,h3{
+  color:red;
+}
+
+/* Id selectors */
+
+#login{
+  color:blue;
+  background-color: white;
+}
+
+#signup{
+  color:brown;
+  background-color: lightblue;
+}
+
+/* class selectors: Making class and applying it to every elements... */
+.up{
+  color:aqua;
+  background-color: black;
+}
+
+/* Descendent Selectors  */
+.post a{
+  color: green;
+}
+
+/* Descendent Selectors at more than one level */
+
+nav ul li a{
+  color:hotpink;
+}
+
+/* Sibling Combinators. (Adjacent) */
+
+p+h3{
+  text-decoration: underline;
+}
+
+.up + button{
+  background-color: rgb(141, 27, 207);
+  color:black;
+}
+
+/* Child Combinators */
+div > input{
+  background-color:orange;
+}
+
+/* Attribute Selectors */
+div input[type="text"]{
+  color:green;
+}
+
+div input[type="password"]{
+  color:red;
+}

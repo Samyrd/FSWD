@@ -1,0 +1,57 @@
+/* Part A (Selectors) */
+
+/* 1. */
+#mainTopic{
+  color:blue;
+}
+
+/* 2. */
+*{
+  text-align: center;
+}
+
+/* 3. */
+.font{
+  font-family:Georgia;
+  
+}
+
+/* 4. */
+.element{
+  color:white;
+  background-color: cornflowerblue;
+}
+
+/* 5. Can be solved using Descendent Selectors */
+div button{
+  background-color: purple;
+  color:azure;
+}
+
+
+/* Part-B(Pseudo class & Elements) */
+
+/* 6. */
+button:hover{
+  background-color: yellow;
+  color:blue;
+}
+
+/* 7. */
+p:nth-of-type(2n+1){
+  color:yellow;
+}
+
+/* 8. */
+h1::first-letter{
+  color:red;
+}
+
+/* 9. */
+#yes:checked+label{
+  color:darkgreen;
+}
+
+/* 10. */
+/* #mainContent > div.main >.main>h1 */
+
